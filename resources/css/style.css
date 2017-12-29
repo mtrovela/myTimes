@@ -1,9 +1,17 @@
+body {
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
+}
+
 header {
   display: flex;
   align-items: center;
   font-family: Verdana;
   font-size: 14px;
   font-weight: bold;
+  background-color: white;
+  border-bottom: 1px solid black;
 }
 
 .logo {
@@ -26,4 +34,85 @@ nav span {
 
 a {
   color: black;
+}
+
+.content {
+  display: flex;
+  width: 1232px;
+  padding-top: 23px;
+  margin: 0 auto 78px auto;
+}
+
+.col-1 {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+  width: 630px;
+}
+
+.nested-cols {
+  display: flex;
+  justify-content: space-between;
+}
+.nested-col-1 {
+  display: block;
+  width: 300;
+}
+
+.nested-col-2 {
+  display: block;
+  width: 300;
+}
+
+.text-content {
+  display: block;
+}
+
+h3 {
+  height: 300px;
+  width: 300px;
+  color: white;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#tree {
+  height: 300px;
+  width: 300px;
+  background-image: url(/Users/mtrovela/Desktop/CodeAcademy/myTimes/resources/images/img-story-2.png)
+}
+
+#hipster {
+  height: 300px;
+  width: 300px;
+  background-image: url(/Users/mtrovela/Desktop/CodeAcademy/myTimes/resources/images/img-story-3.png)
+}
+
+.col-2 {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+  width: 300px;
+}
+
+.col-3 {
+    display: flex;
+    border: 1px solid black;
+    width: 240px;
+}
+
+.nested-col-1 {
+  display: flex;
+  border: 1px solid black;
+}
+
+.nested-col-2 {
+  display: flex;
+  border: 1px solid black;
+}
+
+h1 {
+  display: block;
 }
