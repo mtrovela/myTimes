@@ -19,6 +19,7 @@ header {
   align-items: center;
   flex-grow: 1;
   padding-left: 30px;
+  border: solid 1px black;
 }
 
 .logo span {
@@ -43,24 +44,45 @@ a {
   margin: 0 auto 78px auto;
 }
 
-.col-1 {
+.column.large {
   display: flex;
   flex-direction: column;
   border: 1px solid black;
   width: 630px;
 }
 
-.nested-cols {
+.feature {
+  display: flex;
+  flex-direction: column;
+}
+
+.feature-image {
+  display: flex;
+  background-image: url(/Users/mtrovela/Desktop/CodeAcademy/myTimes/resources/images/img-story-main.png)
+}
+
+h1 {
+  display: flex;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 40px;
+  color: white;
+  padding: 40px;
+}
+
+.stories {
   display: flex;
   justify-content: space-between;
 }
 .nested-col-1 {
-  display: block;
+  display: flex;
+  border: 1px solid black;
   width: 300;
 }
 
 .nested-col-2 {
-  display: block;
+  display: flex;
+  border: 1px solid black;
   width: 300;
 }
 
@@ -69,6 +91,7 @@ a {
 }
 
 h3 {
+  font-size: 30px;
   height: 300px;
   width: 300px;
   color: white;
@@ -78,7 +101,8 @@ h3 {
   justify-content: center;
 }
 
-#tree {
+.nested-image {
+  display: flex;
   height: 300px;
   width: 300px;
   background-image: url(/Users/mtrovela/Desktop/CodeAcademy/myTimes/resources/images/img-story-2.png)
@@ -90,29 +114,15 @@ h3 {
   background-image: url(/Users/mtrovela/Desktop/CodeAcademy/myTimes/resources/images/img-story-3.png)
 }
 
-.col-2 {
+.column.medium {
   display: flex;
   flex-direction: column;
   border: 1px solid black;
   width: 300px;
 }
 
-.col-3 {
+.column.small {
     display: flex;
     border: 1px solid black;
     width: 240px;
-}
-
-.nested-col-1 {
-  display: flex;
-  border: 1px solid black;
-}
-
-.nested-col-2 {
-  display: flex;
-  border: 1px solid black;
-}
-
-h1 {
-  display: block;
 }
