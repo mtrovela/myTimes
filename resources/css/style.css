@@ -38,50 +38,42 @@ a {
   color: black;
 }
 
+.column {
+  display: flex;
+  border: 1px solid black;
+}
+
 .content {
   display: flex;
-  justify-content: flex-start;
-  flex-direction: column;
+  justify-content: center;
+  flex-direction: row;
   border: 1px solid black;
   margin: 0 auto 78px auto;
 }
 
-.column {
-  border: 1px solid black;
-}
-
-.column.large {
-  display: flex;
-  width: 630px;
-  border: 1px solid black;
-}
-
-.content.large {
-  display: flex;
-  align-items: center;
-}
-
-.text-content {
+.large {
   display: flex;
   flex-direction: column;
   border: 1px solid black;
-}
-
-.large {
-  border: 1px solid black;
   width: 630px;
 }
 
-.column.medium {
+.medium {
   display: flex;
+  flex-direction: column;
+  border: 1px solid black;
   width: 300px;
-  /* border: 1px solid black; */
 }
 
-.column.small {
+.small {
   display: flex;
+  flex-direction: column;
   width: 240px;
-  /* border: 1px solid black; */
+}
+
+.sidebar {
+  display: block;
+  border: 1px solid black;
 }
 
 /* .content {
