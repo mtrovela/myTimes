@@ -19,7 +19,7 @@ header {
   align-items: center;
   flex-grow: 1;
   padding-left: 30px;
-  border: solid 1px black;
+  /* border: solid 1px black; */
   margin-bottom: 10px;
 }
 
@@ -40,7 +40,7 @@ a {
 
 .column {
   display: flex;
-  border: 1px solid black;
+  /* border: 1px solid black; */
   margin-right: 40px;
 }
 
@@ -48,14 +48,14 @@ a {
   display: flex;
   justify-content: center;
   flex-direction: row;
-  border: 1px solid black;
+  /* border: 1px solid black; */
   margin: 0 auto 78px auto;
 }
 
 .large {
   display: flex;
   flex-direction: column;
-  border: 1px solid black;
+  /* border: 1px solid black; */
   width: 630px;
   margin-bottom: 20px;
 }
@@ -63,7 +63,7 @@ a {
 .medium {
   display: flex;
   flex-direction: column;
-  border: 1px solid black;
+  /* border: 1px solid black; */
   width: 300px;
   margin-bottom: 20px;
 }
@@ -71,14 +71,14 @@ a {
 .small {
   display: flex;
   flex-direction: column;
-  border: 1px solid black;
+  /* border: 1px solid black; */
   width: 240px;
   margin-bottom: 20px;
 }
 
 .sidebar {
   display: block;
-  border: 1px solid black;
+  /* border: 1px solid black; */
 }
 
 .image-content {
@@ -88,8 +88,10 @@ a {
   font-family: Georgia;
   font-weight: bold;
   font-size: 30px;
+  text-align: center;
   color: white;
   height: 300px;
+  margin-top: 40px;
 }
 
 .lead-story .image-content {
@@ -123,95 +125,13 @@ a {
 }
 
 .text-content {
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
   height: 250px;
 }
 
-/* .content {
+.narrative {
   display: flex;
-  width: 1232px;
-  padding-top: 23px;
-  margin: 0 auto 78px auto;
+  align-content: space-between;
 }
-
-.column.large {
-  display: flex;
-  flex-direction: column;
-  border: 1px solid black;
-  width: 630px;
-}
-
-.feature {
-  display: flex;
-  flex-direction: column;
-}
-
-.feature-image {
-  display: flex;
-  background-image: url(/Users/mtrovela/Desktop/CodeAcademy/myTimes/resources/images/img-story-main.png)
-}
-
-h1 {
-  display: flex;
-  font-family: Georgia;
-  font-weight: bold;
-  font-size: 40px;
-  color: white;
-  padding: 40px;
-}
-
-.story {
-  display: flex;
-  justify-content: space-between;
-}
-.nested-col-1 {
-  display: flex;
-  border: 1px solid black;
-  width: 300;
-}
-
-.nested-col-2 {
-  display: flex;
-  border: 1px solid black;
-  width: 300;
-}
-
-.text-content {
-  display: block;
-}
-
-h3 {
-  font-size: 30px;
-  height: 300px;
-  width: 300px;
-  color: white;
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-
-.nested-image {
-  display: flex;
-  height: 300px;
-  width: 300px;
-  background-image: url(/Users/mtrovela/Desktop/CodeAcademy/myTimes/resources/images/img-story-2.png)
-}
-
-#hipster {
-  height: 300px;
-  width: 300px;
-  background-image: url(/Users/mtrovela/Desktop/CodeAcademy/myTimes/resources/images/img-story-3.png)
-}
-
-.column.medium {
-  display: flex;
-  flex-direction: column;
-  border: 1px solid black;
-  width: 300px;
-}
-
-.column.small {
-    display: flex;
-    border: 1px solid black;
-    width: 240px;
-} */
