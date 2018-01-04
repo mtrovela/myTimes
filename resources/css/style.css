@@ -41,6 +41,7 @@ a {
 .column {
   display: flex;
   border: 1px solid black;
+  margin-right: 40px;
 }
 
 .content {
@@ -56,6 +57,7 @@ a {
   flex-direction: column;
   border: 1px solid black;
   width: 630px;
+  margin-bottom: 20px;
 }
 
 .medium {
@@ -63,6 +65,7 @@ a {
   flex-direction: column;
   border: 1px solid black;
   width: 300px;
+  margin-bottom: 20px;
 }
 
 .small {
@@ -74,6 +77,34 @@ a {
 .sidebar {
   display: block;
   border: 1px solid black;
+}
+
+.image-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  height: 300px;
+}
+
+.lead-story .image-content {
+  display: flex;
+  background-image: url("../../resources/images/img-story-main.png");
+}
+
+.tree {
+  background-image: url("../../resources/images/img-story-2.png");
+}
+
+.hipster {
+  background-image: url("../../resources/images/img-story-3.png");
+}
+
+.cat {
+  background-image: url("../../resources/images/img-story-1.png");
 }
 
 /* .content {
