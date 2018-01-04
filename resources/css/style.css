@@ -71,7 +71,9 @@ a {
 .small {
   display: flex;
   flex-direction: column;
+  border: 1px solid black;
   width: 240px;
+  margin-bottom: 20px;
 }
 
 .sidebar {
@@ -93,6 +95,7 @@ a {
 .lead-story .image-content {
   display: flex;
   background-image: url("../../resources/images/img-story-main.png");
+  font-size: 40px;
 }
 
 .tree {
@@ -105,6 +108,22 @@ a {
 
 .cat {
   background-image: url("../../resources/images/img-story-1.png");
+}
+
+.story {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 300px;
+}
+
+.stories {
+  display: flex;
+  justify-content: space-between;
+}
+
+.text-content {
+  height: 250px;
 }
 
 /* .content {
