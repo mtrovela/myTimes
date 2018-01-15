@@ -12,6 +12,12 @@ header {
   font-weight: bold;
   background-color: white;
   border-bottom: 1px solid black;
+  position: fixed;
+  width: 100%;
+  background-color: white;
+  top: 0;
+  left: 0;
+  padding-top: 10px;
 }
 
 .logo {
